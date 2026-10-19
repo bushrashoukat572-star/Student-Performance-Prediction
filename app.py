@@ -224,5 +224,3 @@ with tab3:
 st.markdown("---")
 st.markdown("<p style='text-align:center; color:gray;'>Bushra Shoukat | ZYNVEX-CERT-1947 | AI/ML Internship Project</p>",
             unsafe_allow_html=True)
-        
-    
