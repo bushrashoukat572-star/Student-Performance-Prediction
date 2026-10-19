@@ -138,7 +138,7 @@ with tab2:
 
     # Box
     data_box = [df[df['performance']==p]['attendance_pct'].values for p in order]
-    bp = axes[0,1].boxplot(data_box, labels=order, patch_artist=True)
+    bp = axes[0,1].boxplot(data_box, tick_labels=order, patch_artist=True)
     for patch, p in zip(bp['boxes'], order):
         patch.set_facecolor(colors[p])
     axes[0,1].set_title('Attendance by Performance', fontweight='bold')
@@ -223,3 +223,5 @@ with tab3:
 st.markdown("---")
 st.markdown("<p style='text-align:center; color:gray;'>Bushra Shoukat | ZYNVEX-CERT-1947 | AI/ML Internship Project</p>",
             unsafe_allow_html=True)
+        
+    
