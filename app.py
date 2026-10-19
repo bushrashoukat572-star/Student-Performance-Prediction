@@ -1,5 +1,4 @@
-https://github.com/bushrashoukat572-star/Student-Performance-Prediction/edit/main/app.py
-# v3 - updated Oct 2026
+# v4 - reboot
 import streamlit as st
 import pandas as pd
 import numpy as np
